@@ -9,3 +9,252 @@ a{
 p{
     margin: 0;
 }
+.navbar-frame .container {
+  position: relative;
+  
+  width: 1320px;
+  height: auto;
+}
+/*NAVBAR CSS*/  
+.navbar-frame {
+  position: relative;
+  width: 100%;
+  height: 145px;
+  background: rgba(68, 50, 151, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.navbar-frame .container {
+ 
+  padding: 20px 0px 14px;
+  width: 1320px;
+  height: auto;
+  /*background-color: aqua;*/
+}
+.navbar-frame .container .navbar-top {
+  width: auto;
+  height: 50px;
+  /*background-color: aqua;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navbar-frame .navbar-top .navbar-search {
+  width: 651px;
+  height: 50px;
+  border-radius: 6px;
+
+  display: flex;
+  flex-direction: row;
+  background: rgba(255, 255, 255, 1);
+}
+.navbar-frame .navbar-search .search-box {
+  padding: 10px 17px 10px 17px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.navbar-frame .search-box .category-list {
+  /* categories */
+  width: 166px;
+  height: 30px;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+.navbar-frame .category-list select {
+  width: 140px;
+  height: 30px;
+
+  border: none;
+  outline: none;
+
+  color: rgba(98, 105, 116, 1);
+
+  font-family: "Jost";
+  font-style: Regular;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+}
+.navbar-frame .search-box input {
+  margin-left: 12px;
+  /* Search products… */
+  width: 387px;
+  height: 22px;
+
+  border: none;
+  outline: none;
+
+  color: rgba(98, 105, 116, 1);
+
+  font-family: "Jost";
+  font-style: Regular;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.navbar-frame .navbar-search .search-icon-box {
+  width: 50px;
+  height: 50px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 0px 6px 6px 0px;
+  background: rgba(245, 195, 75, 1);
+}
+.navbar-frame .navbar-top .nav-top-menu {
+  margin-right: 6px;
+  width: 416px;
+  height: 50px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-frame .nav-top-menu .menu-box {
+  
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  width: 54px;
+  height: 50px;
+
+  border: 1px solid white;
+  border-radius: 6px;
+}
+.navbar-frame .menu-icon img {
+  width: 25px;
+  height: 25px;
+}
+.navbar-frame .nav-top-menu .menu-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  margin-left: 6px;
+}
+.navbar-frame .menu-text span {
+  color: rgba(255, 255, 255, 1);
+
+  font-family: "Jost";
+  font-size: undefinedpx;
+  font-weight: undefined;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.navbar-frame .menu-text strong {
+  color: rgba(255, 255, 255, 1);
+
+  font-family: "Jost";
+  font-size: undefinedpx;
+  font-weight: undefined;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.navbar-frame .menu-icon .basket {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  /* number */
+  width: 16px;
+  height: 16px;
+  background-color: yellow;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(11, 30, 64, 1);
+
+  font-family: "Jost";
+  font-style: Bold;
+  font-size: 8px;
+  font-weight: 700;
+  line-height: 10px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.navbar-frame .container .navbar-bott {
+  display: flex;
+  flex-direction: row;
+
+  border-top: 1px solid #5742a2;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+.navbar-frame .navbar-bott .twicebox {
+  margin-top: 10px;
+  height: 20px;
+  width: 185px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  border-right: 1px solid #5742a2;
+}
+
+.navbar-frame .browse-box img {
+  width: 20px;
+  height: 18px;
+}
+.navbar-frame .browse-box span {
+  margin-left: 10px;
+  color: rgba(255, 255, 255, 1);
+
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.navbar-frame .navbar-bott .navbar-route-menu {
+  margin-top: 8px;
+  width: 670px;
+  height: 28px;
+}
+.navbar-frame .navbar-route-menu a {
+  margin-right: 10px;
+
+  /* Home Shop Orders About Contact */
+  width: 361.71px;
+  height: 28px;
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  color: white;
+}
+.navbar-frame .navbar-route-menu a.title {
+  color: #f5c34b;
+}
+.navbar-frame .navbar-bott .third {
+  margin-top: 8px;
+}
+.navbar-frame .third span {
+  margin-left: 10px;
+  /* Deal of the Day Hot Deals Best Sellers New Arrivals */
+  width: 462px;
+  height: 28px;
+  color: rgba(255, 255, 255, 1);
+
+  font-family: "Jost";
+  font-style: Medium;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+}
