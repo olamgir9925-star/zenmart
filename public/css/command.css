@@ -17,6 +17,7 @@ p{
 }
 /*NAVBAR CSS*/  
 .navbar-frame {
+  margin-left: 30px;
   position: relative;
   width: 100%;
   height: 145px;
@@ -228,7 +229,7 @@ p{
 }
 .navbar-frame .navbar-route-menu a {
   margin-right: 10px;
-
+  margin-left: 10px;
   /* Home Shop Orders About Contact */
   width: 361.71px;
   height: 28px;
@@ -258,3 +259,4 @@ p{
   font-weight: 500;
   line-height: 28px;
 }
+
