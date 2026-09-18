@@ -111,7 +111,7 @@ border-radius: 50%;
   margin-top: 47px;
   width: 100%;
   height: auto;
-  margin-left: 30px;
+ 
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -119,6 +119,7 @@ border-radius: 50%;
 .header-frame .container-box {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 .header-frame .container-box .header-left {
   position: relative;
@@ -272,18 +273,20 @@ border-radius: 50%;
 }
 /*SERVICE*/
 .home-page .service-frame {
-  position: relative;
-  margin-top: 30px;
-  margin-left: 30px;
+ position: relative;
+  margin-top: 47px;
   width: 100%;
   height: auto;
-
-  display: flex;
-  flex-direction: column;
-}
-.service-frame .container {
+ 
   display: flex;
   flex-direction: row;
+  justify-content: center;
+}
+.service-frame .container {
+  width: 1320px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .service-frame .container .service-box {
   width: 25%;
@@ -324,19 +327,20 @@ border-radius: 50%;
 /*SHOP CATEGORY*/
 .shop-category-frame {
   position: relative;
-  margin-top: 90px;
-  margin-left: 15px;
-  margin-left: 35px;
-  width: 95%;
+  margin-top: 47px;
+  width: 100%;
   height: auto;
-
+ 
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
+  
 }
 .shop-category-frame .container {
+  width: 1320px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 .container .category-top {
   width: 100%;
@@ -421,12 +425,12 @@ border-radius: 50%;
 /*Top Selling Product*/
 .selling-product-frame {
   position: relative;
-  margin-top: 60px;
+  margin-top: 47px;
   width: 100%;
   height: auto;
-  margin-left: 35px;
+ 
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
 }
 
@@ -446,6 +450,7 @@ border-radius: 50%;
 
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   
 }
 .product-wrapper .next-prev-box {
@@ -459,7 +464,7 @@ border-radius: 50%;
 }
 .product-wrapper .product-boxes {
   position: relative;
-  width: 1224px;
+  width: 1320px;
   height: 452px;
 
   display: flex;
@@ -607,11 +612,11 @@ line-height: 26px;
 }
 /*SPES PRODUCT*/
 .home-page .spec-product-frame{
-  position: relative;
+ position: relative;
   margin-top: 90px;
-  width: 1320px;
+  width: 100%;
   height: auto;
-  margin-left: 30px;
+ 
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -692,16 +697,16 @@ line-height: 22px;
   margin-left: 30px;
   width: 620px;
   height: 368px;
-
+  margin-top: 30px;
   display: flex;
   flex-direction: row;
-  
+  justify-content: space-between;
   flex-wrap: wrap;
 
 }
 .small-product-wrapper .small-product-box{
   
-  padding: 30px;
+  
   width: 293px;
   height: 170px;
   
@@ -713,7 +718,9 @@ line-height: 22px;
 }
 .small-product-box:nth-child(odd){
   margin-right: 30px;
+  
 }
+
 .small-product-box .big-product-content {
   position: relative;
   display: flex;
@@ -750,10 +757,10 @@ height: 107px;
 }
 .home-page .tv-frame{
   position: relative;
-  margin-top: 90px;
-  width: 1320px;
+  margin-top: 47px;
+  width: 100%;
   height: auto;
-  
+ 
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -954,3 +961,6 @@ height: 19.25px;
 .event-box .product-content-box{
   margin-left: 15px;
 }
+
+
+

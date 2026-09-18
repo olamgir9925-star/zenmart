@@ -6,6 +6,10 @@
     <title>Zenmart</title>
   </head>
   <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+/>
+  <link
     rel="icon"
     type="image/png"
     href="../Zenmart/public/images/icons/search.svg"
@@ -16,10 +20,10 @@
     href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet"
   />
-  <link rel="stylesheet" href="../Zenmart/public/css/command.css" />
-  <link rel="stylesheet" href="../Zenmart/public/css/home.css" />
-  <link rel="stylesheet" href="public/css/command.css" />
+  
+  <link rel="stylesheet" href="public/css/command.css"/>
   <link rel="stylesheet" href="public/css/home.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
   <body>
     <div class="navbar-frame">
       <div class="container">
@@ -220,13 +224,17 @@
             <span>Top selling products</span>
             <a href="">View All </a>
           </div>
-          
+        
           <div class="product-wrapper">
-            <div class="next-prev-box">
+            <!-- <div class="next-prev-box">
               <img src="public/images/icons/next.svg"/>
-            </div> 
+            </div>  -->
             <div class="product-boxes">
-              <div class="product-box">
+               <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+               <div class="swiper mySwiper">
+               <div class="swiper-wrapper">
+<div class="product-box">
                 <a href="">
                   <div class="product-img-box" style="background: url(public/images/products/watch.png); background-size: cover;" >
                      <div class="hover-box">
@@ -255,8 +263,8 @@
                   </div>
                 </div>
               </div>
-              <div class="product-boxes">
-              <div class="product-box">
+              
+              <div class="swiper-slide"><div class="product-box">
                 <a href="">
                   <div
                     class="product-img-box"
@@ -290,45 +298,8 @@
                     <span>$450</span>
                   </div>
                 </div>
-              </div>
-              <div class="product-boxes">
-              <div class="product-box">
-                <a href="">
-                  <div
-                    class="product-img-box"
-                    style="
-                      background: url(public/images/products/iRobot.png);
-                      background-size: cover;
-                    "
-                  >
-                    <div class="hover-box">
-                      <button>Add to Cart</button>
-                    </div>
-                  </div>
-                </a>
-                <div class="product-content-box">
-                  <span>SONY</span>
-                  <a href="">
-                    <p class="product-desc">
-                      Shure SRH440 Professional Studio Headphones
-                    </p>
-                  </a>
-                  <div class="review-box">
-                    <img src="public/images/icons/review.svg" alt="" />
-                    <img src="public/images/icons/review.svg" alt="" />
-                    <img src="public/images/icons/review.svg" alt="" />
-                    <img src="public/images/icons/review.svg" alt="" />
-                    <img src="public/images/icons/review.svg" alt="" />
-                    <span>3,014 reviews</span>
-                  </div>
-                  <div class="price-box">
-                    <strong>$399</strong>
-                    <span>$455</span>
-                  </div>
-                </div>
-              </div>
-              <div class="product-boxes">
-              <div class="product-box">
+              </div></div>
+              <div class="swiper-slide"><div class="product-box">
                 <a href="">
                   <div
                     class="product-img-box"
@@ -362,18 +333,193 @@
                     <span>$420</span>
                   </div>
                 </div>
-              </div>
-              <div class="next-prev-box" style="transform: scaleX(-1);">
-              <img src="public/images/icons/next.svg"/>
-            </div> 
+              </div></div>
+               <div class="swiper-slide"><div class="product-box">
+                <a href="">
+                  <div
+                    class="product-img-box"
+                    style="
+                      background: url(public/images/products/dyson.png);
+                      background-size: cover;
+                    "
+                  >
+                    <div class="hover-box">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="product-content-box">
+                  <span>EASTSPORT</span>
+                  <a href="">
+                    <p class="product-desc">
+                      Shure SRH440 Professional Studio Headphones
+                    </p>
+                  </a>
+                  <div class="review-box">
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price-box">
+                    <strong>$300</strong>
+                    <span>$420</span>
+                  </div>
+                </div>
+              </div></div>
+              
+              <div class="swiper-slide"> <div class="product-box">
+                <a href="">
+                  <div
+                    class="product-img-box"
+                    style="
+                      background: url(public/images/products/dyson.png);
+                      background-size: cover;
+                    "
+                  >
+                    <div class="hover-box">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="product-content-box">
+                  <span>EASTSPORT</span>
+                  <a href="">
+                    <p class="product-desc">
+                      Shure SRH440 Professional Studio Headphones
+                    </p>
+                  </a>
+                  <div class="review-box">
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price-box">
+                    <strong>$300</strong>
+                    <span>$420</span>
+                  </div>
+                </div>
+              </div></div>
+               <div class="swiper-slide"><div class="product-box">
+                <a href="">
+                  <div
+                    class="product-img-box"
+                    style="
+                      background: url(public/images/products/dyson.png);
+                      background-size: cover;
+                    "
+                  >
+                    <div class="hover-box">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="product-content-box">
+                  <span>EASTSPORT</span>
+                  <a href="">
+                    <p class="product-desc">
+                      Shure SRH440 Professional Studio Headphones
+                    </p>
+                  </a>
+                  <div class="review-box">
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price-box">
+                    <strong>$300</strong>
+                    <span>$420</span>
+                  </div>
+                </div>
+              </div></div>
+              <div class="swiper-slide"> <div class="product-box">
+                <a href="">
+                  <div
+                    class="product-img-box"
+                    style="
+                      background: url(public/images/products/dyson.png);
+                      background-size: cover;
+                    "
+                  >
+                    <div class="hover-box">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="product-content-box">
+                  <span>EASTSPORT</span>
+                  <a href="">
+                    <p class="product-desc">
+                      Shure SRH440 Professional Studio Headphones
+                    </p>
+                  </a>
+                  <div class="review-box">
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price-box">
+                    <strong>$300</strong>
+                    <span>$420</span>
+                  </div>
+                </div>
+              </div></div>
+              <div class="swiper-slide"><div class="product-box">
+                <a href="">
+                  <div
+                    class="product-img-box"
+                    style="
+                      background: url(public/images/products/dyson.png);
+                      background-size: cover;
+                    "
+                  >
+                    <div class="hover-box">
+                      <button>Add to Cart</button>
+                    </div>
+                  </div>
+                </a>
+                <div class="product-content-box">
+                  <span>EASTSPORT</span>
+                  <a href="">
+                    <p class="product-desc">
+                      Shure SRH440 Professional Studio Headphones
+                    </p>
+                  </a>
+                  <div class="review-box">
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <img src="public/images/icons/review.svg" alt="" />
+                    <span>3,014 reviews</span>
+                  </div>
+                  <div class="price-box">
+                    <strong>$300</strong>
+                    <span>$420</span>
+                  </div>
+                </div>
+              </div></div>
+             </div>
+             
+             </div>
+              
+              
             </div>
             
           </div>
-         
-          </div>
-        </div>
-      </div>
-       <div class="pagination-box">
+          
+         <div class="pagination-box">
             <div class="pagination-main">
               <img src="public/images/icons/arrow-prev_next.svg">
               <div class="pagination-dot">
@@ -394,8 +540,11 @@
               </div>
               <img src="public/images/icons/arrow-prev_next.svg" style="transform: scaleX(-1);">
             </div>
-             
-    </div>
+       
+        </div>
+        </div>
+      </div>
+      
    <div class="adv-frame">
     Members get free shipping* with no order minimum!*Restrictions apply.Try free 30-day trial 
 
@@ -640,7 +789,8 @@
     </div>
     </div>
    </div>
-   </div>
+      </div>
+      </div>
    <div class="event-frame">
     <div class="container">
       <div class="event-date">
@@ -791,8 +941,39 @@
             <img src="public/images/icons/next.svg" class="white-svg" >
           </div>
       </div>
-      
+     </div>
+  </div>
+   </div>
+    
+
+   
+  
+  
+  <div class="footer-frame">
+    <div class="container">
+      <div class="footer-top"></div>
+      <div class="footer-bottom"></div>
     </div>
    </div>
+   <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@14.0.1/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper('.mySwiper', {
+        slidesPerView: 4,
+        spaceBetween: 30,
+        freeMode: true,
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+          el: '.swiper-pagination',
+        },
+        mousewheel: true,
+        keyboard: true,
+      });
+    </script>
   </body>
 </html>
