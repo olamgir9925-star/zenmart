@@ -9,6 +9,8 @@ a{
 p{
     margin: 0;
 }
+
+
 .navbar-frame .container {
   position: relative;
   
@@ -261,14 +263,97 @@ p{
 }
 /*FOOTER FRAME*/
 .footer-frame {
-  margin-top: 90px;
-  width:1320px;
-  height: 587px;
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 90px 0 20px;
 
   display: flex;
   flex-direction: row;
   justify-content: center;
- 
-  background: rgb(243,245,246);
+  background: rgb(243,245,246 );
 }
+.footer-frame .footer-contact-title {
+  display: flex;
+  margin-bottom: 30px;
+color: rgba(4, 30, 66, 1);
 
+font-family: "Jost";
+font-style: Medium;
+font-size: 18px;
+font-weight: 500;
+line-height: 26px;
+
+}
+.footer-frame .container {
+  flex-direction: column;
+  position: relative;
+  width: 1320px;
+  height: auto;
+  display: flex;
+}
+.footer-frame .footer-top {
+  display: flex;
+  flex-direction: row;
+}
+.footer-frame .footer-top .footer-contact-main{
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.footer-frame .footer-contact-main img{
+  width: 30px;
+  height: 30px;
+}
+.footer-frame .footer-contact-main div {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.footer-frame .footer-contact-main div strong{
+color: rgba(4, 30, 66, 1);
+
+font-family: "Jost";
+font-style: Medium;
+font-size: 15px;
+font-weight: 500;
+line-height: 22px;
+
+}
+.footer-frame .footer-contact-main div span{
+  margin-top: 10px;
+color: rgba(4, 30, 66, 1);
+
+font-family: "Jost";
+font-style: Regular;
+font-size: 15px;
+font-weight: 400;
+line-height: 22px;
+
+}
+.footer-frame .footer-support-box{
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+}
+.footer-frame .footer-support-box a {
+  margin-top: 15px;
+color: rgba(4, 30, 66, 1);
+
+font-family: "Jost";
+font-style: Regular;
+font-size: 14px;
+font-weight: 400;
+
+}
+.footer-frame.footer-media-box {
+display: flex;
+flex-direction: column;
+}
+.footer-frame.footer-media-box .footer-media-main {
+  display: flex;
+  flex-direction: row;
+}
+.footer-frame .footer-media-main div i {
+  margin-right: 25px;
+}
